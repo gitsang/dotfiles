@@ -1,0 +1,141 @@
+{
+  "version": 3,
+  "skills": {
+    "git-commit": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/git-commit/SKILL.md",
+      "skillFolderHash": "883a6a7466f55a9cd9f22cf1cce2d9333fc9b998",
+      "installedAt": "2026-03-02T05:25:06.281Z",
+      "updatedAt": "2026-03-02T05:25:06.281Z"
+    },
+    "agent-browser": {
+      "source": "vercel-labs/agent-browser",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
+      "skillPath": "skills/agent-browser/SKILL.md",
+      "skillFolderHash": "037e8078db4b20b4aa25c04f21c6de7d335ec449",
+      "installedAt": "2026-03-03T02:35:02.890Z",
+      "updatedAt": "2026-07-21T13:35:30.326Z"
+    },
+    "pptx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/pptx/SKILL.md",
+      "skillFolderHash": "64529c8b3f35fe632b7256bd2f6d46e4b40160ce",
+      "installedAt": "2026-03-03T02:40:25.525Z",
+      "updatedAt": "2026-07-21T13:35:46.376Z"
+    },
+    "docx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/docx/SKILL.md",
+      "skillFolderHash": "6e6f5b95c1de6e803cc07b214f5059b074d64e0c",
+      "installedAt": "2026-03-03T03:13:27.885Z",
+      "updatedAt": "2026-07-21T13:36:44.366Z"
+    },
+    "pdf": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/pdf/SKILL.md",
+      "skillFolderHash": "6369f4649de69bd6857c9bc3b058a77206009238",
+      "pluginName": "document-skills",
+      "installedAt": "2026-03-17T10:35:27.808Z",
+      "updatedAt": "2026-03-17T10:35:27.808Z"
+    },
+    "chrome-devtools": {
+      "source": "chromedevtools/chrome-devtools-mcp",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/chromedevtools/chrome-devtools-mcp.git",
+      "skillPath": "skills/chrome-devtools/SKILL.md",
+      "skillFolderHash": "4614c438e4296a1bcfde1ffd7720713834835305",
+      "installedAt": "2026-03-19T08:02:02.707Z",
+      "updatedAt": "2026-07-21T13:36:51.642Z"
+    },
+    "golang-develop": {
+      "source": "gitcode.yealink.com",
+      "sourceType": "well-known",
+      "sourceUrl": "https://gitcode.yealink.com/yl2356/skills/-/raw/main/.well-known/skills/golang-develop/SKILL.md",
+      "skillFolderHash": "",
+      "installedAt": "2026-05-14T09:42:51.618Z",
+      "updatedAt": "2026-07-21T13:37:30.194Z"
+    },
+    "team-debate": {
+      "source": "gitsang/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/gitsang/skills.git",
+      "skillPath": "skills/team-debate/SKILL.md",
+      "skillFolderHash": "0944c14834c0a9817db473b8d07a8b1e872168ae",
+      "installedAt": "2026-05-15T09:03:33.100Z",
+      "updatedAt": "2026-05-18T14:06:01.404Z"
+    },
+    "deep-research": {
+      "source": "Imbad0202/academic-research-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Imbad0202/academic-research-skills.git",
+      "ref": "main",
+      "skillPath": "deep-research/SKILL.md",
+      "skillFolderHash": "c2577270a9224fdb923fffd5e5f40cf4a9dbfb25",
+      "installedAt": "2026-05-19T08:05:38.506Z",
+      "updatedAt": "2026-07-21T13:37:04.540Z"
+    },
+    "flyai": {
+      "source": "alibaba-flyai/flyai-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/alibaba-flyai/flyai-skill.git",
+      "skillPath": "skills/flyai/SKILL.md",
+      "skillFolderHash": "1063de6a31e5837f204131aaa4af95a3cb97ebaf",
+      "installedAt": "2026-06-12T01:24:35.473Z",
+      "updatedAt": "2026-07-29T05:14:33.745Z"
+    },
+    "google-maps-platform": {
+      "source": "googlemaps/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/googlemaps/agent-skills.git",
+      "skillPath": "skills/google-maps-platform/SKILL.md",
+      "skillFolderHash": "2b1284383ebf2d65af8ac1eeaf403599be0f197c",
+      "installedAt": "2026-07-14T08:02:23.263Z",
+      "updatedAt": "2026-07-14T08:02:23.263Z"
+    },
+    "skill-creator": {
+      "source": "openai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/openai/skills.git",
+      "skillPath": "skills/.system/skill-creator/SKILL.md",
+      "skillFolderHash": "8bfb6b8774d223eea3e788cfdfa1e4209e5e2ae9",
+      "installedAt": "2026-07-21T13:27:00.839Z",
+      "updatedAt": "2026-07-21T13:27:00.839Z"
+    },
+    "tavily-search": {
+      "source": "tavily-ai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/tavily-ai/skills.git",
+      "skillPath": "skills/tavily-search/SKILL.md",
+      "skillFolderHash": "74e6f8996fa49a3ebe8aa8f3dbddc4a2c2b5e5e4",
+      "installedAt": "2026-07-22T06:21:35.172Z",
+      "updatedAt": "2026-07-22T06:21:35.172Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "antigravity-cli",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed"
+  ]
+}

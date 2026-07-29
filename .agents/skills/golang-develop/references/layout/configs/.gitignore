@@ -1,0 +1,8 @@
+**/*.yaml
+**/*.yml
+**/*.json
+**/*.toml
+!**/*.example.yaml
+!**/*.example.yml
+!**/*.example.json
+!**/*.example.toml

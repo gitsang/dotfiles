@@ -1,0 +1,24 @@
+# ComfyUI 技能配置文件
+
+server:
+  url: "http://dev.xm1.wg.c8g.top:8188"
+  timeout: 300
+
+defaults:
+  checkpoint: "FLUX1/flux1-dev-Q4_K_S.gguf"
+  width: 512
+  height: 512
+  steps: 20
+  cfg: 7.0
+  sampler: "euler_a"
+  negative_prompt: "lowres, bad anatomy, worst quality, low quality"
+
+output:
+  dir: "./comfyui-output"
+  auto_download: true
+  preview: "feh"
+
+workflows:
+  search_path:
+    - "./.agents/skills/comfyui/workflows"
+    - "~/.agents/skills/comfyui/workflows"

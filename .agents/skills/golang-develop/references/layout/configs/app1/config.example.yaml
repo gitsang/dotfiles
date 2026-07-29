@@ -1,0 +1,37 @@
+timezone: Asia/Shanghai
+
+log:
+  default: stdout
+  providers:
+    stdout:
+      - format: console
+        level: info
+        verbosity: 1
+        output:
+          stdout:
+            enable: true
+
+server:
+  http:
+    network: tcp
+    addr: 127.0.0.1:2884
+    timeout: 3s
+    apiPrefix: /petstore/api
+  grpc:
+    network: tcp
+    addr: 127.0.0.1:2885
+
+data:
+  cache:
+    driver: memory
+    memory:
+      namespaces:
+        - app1
+  mq:
+    driver: memory
+    memory:
+      namespaces:
+        - app1
+    keepaliveInterval: 5s
+    consumeTimeout: 15s
+    maxRetry: 3

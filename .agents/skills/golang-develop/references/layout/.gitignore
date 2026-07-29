@@ -1,0 +1,9 @@
+### Builds ###
+.builds/
+.build/
+bin/
+dist/
+
+### Agents ###
+.claude/
+.sisyphus/
