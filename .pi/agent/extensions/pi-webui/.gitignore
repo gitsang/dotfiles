@@ -1,0 +1,8 @@
+/pi-webui
+dist/
+web/node_modules/
+web/dist/
+logs/
+config.yaml
+
+web/tsconfig.tsbuildinfo

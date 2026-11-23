@@ -1,0 +1,32 @@
+{
+  "lastChangelogVersion": "1.5.2",
+  "theme": "dark",
+  "defaultTools": [
+    "+codemode"
+  ],
+  "defaultProvider": "saigw",
+  "defaultModel": "auto",
+  "defaultThinkingLevel": "high",
+  "hideThinkingBlock": false,
+  "packages": [
+    "https://github.com/cathrynlavery/diagram-design",
+    "https://github.com/ayghri/i-have-adhd",
+    "npm:@tintinweb/pi-tasks",
+    "npm:@tintinweb/pi-subagents",
+    "npm:@termdraw/pi"
+  ],
+  "retry": {
+    "enabled": true,
+    "maxRetries": 5,
+    "baseDelayMs": 3000,
+    "maxAgentDelayMs": 60000
+  },
+  "modelThinkingLevels": {
+    "saigw/deepseek-flash": "high",
+    "saigw/mimo-pro": "high"
+  },
+  "extensionChangelogVersions": {
+    "{\"source\":\"npm:@tintinweb/pi-tasks\",\"scope\":\"user\"}": "0.9.1",
+    "{\"source\":\"npm:@tintinweb/pi-subagents\",\"scope\":\"user\"}": "0.26.1"
+  }
+}

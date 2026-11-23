@@ -1,0 +1,8 @@
+{
+  "tui.input.newLine": ["enter", "shift+enter", "ctrl+j"],
+  "tui.input.submit": ["ctrl+enter", "ctrl+s"],
+  "app.model.cycleForward": "alt+m",
+  "app.model.cycleBackward": "alt+shift+m",
+  "app.session.togglePath": "alt+p",
+  "app.models.toggleProvider": "alt+p"
+}

@@ -1,0 +1,4 @@
+{
+  "default": "priority",
+  "allowed": ["auto", "default", "flex", "priority"]
+}

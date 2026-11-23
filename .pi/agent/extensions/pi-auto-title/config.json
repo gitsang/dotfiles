@@ -1,0 +1,10 @@
+{
+  "model": "saigw/auto",
+  "onFirstTurn": true,
+  "onCompact": true,
+  "refreshEveryTurns": 3,
+  "maxTitleLength": 35,
+  "language": "auto",
+  "setTerminalTitle": false,
+  "includeAssistantOutput": true
+}
