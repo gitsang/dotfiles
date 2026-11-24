@@ -1,0 +1,20 @@
+# tests
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+# local
+lazy-lock.json
+
+# Agents
+.claude
+.codex
+.omx
+.sisyhus
+.team-debate
+
