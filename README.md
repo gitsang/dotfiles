@@ -2,7 +2,7 @@
 
 # Dotfiles
 
-Manage dot files via Git bare repository
+Manage dotfiles via Git bare repository
 
 ## 1. Install in New Machine
 
