@@ -1,0 +1,35 @@
+# ---- credentials ----
+.credentials.yaml
+*.credentials.yaml
+credentials*.yaml
+.env
+.env.*
+*.key
+*.pem
+
+# ---- artifacts ----
+node_modules/
+.pnpm-store/
+.plugin-manager/
+.anonymous-user-id
+.DS_Store
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# ---- artifacts (dsh) ----
+logs/
+sessions/
+storages/
+speech-to-text/
+
+# ---- artifacts (plugin) ----
+attachments/
+cache/
+daemon/
+experimental-auto-review-enhance/
+bridge/
+
+# ---- workspaces ----
+workspaces/

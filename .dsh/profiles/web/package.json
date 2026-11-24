@@ -1,0 +1,30 @@
+{
+  "name": "dsh-profile-web",
+  "private": true,
+  "dependencies": {
+    "@gitsang/dsh-bridge": "^0.4.1",
+    "@gitsang/dsh-daemon": "^0.2.1",
+    "@gitsang/dsh-gateway": "^0.3.0",
+    "@gitsang/dsh-qol": "^0.1.0",
+    "dsh-video-preview": "https://github.com/OrderG-X/dsh-video-preview/releases/latest/download/dsh-video-preview.tgz",
+    "dsh-web-mobile": "^3.2.0"
+  },
+  "dsh": {
+    "profile": {
+      "bundles": [
+        "@deepseek-ai/dsh-base",
+        "@deepseek-ai/dsh-web-app",
+        "@deepseek-ai/dsh-experimental-agent-team-profile",
+        "@deepseek-ai/dsh-experimental-auto-review",
+        "@deepseek-ai/dsh-experimental-voice-input-bundle",
+        "@deepseek-ai/dsh-experimental-inspector-profile",
+        "dsh-video-preview",
+        "dsh-web-mobile",
+        "@gitsang/dsh-daemon",
+        "@gitsang/dsh-gateway",
+        "@gitsang/dsh-qol",
+        "@gitsang/dsh-bridge"
+      ]
+    }
+  }
+}
