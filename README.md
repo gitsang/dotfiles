@@ -54,19 +54,15 @@ fi
 
 > [!WARNING]
 >
+> - In `$HOME`, be careful with `git clean`.
 > - Any directory under `~` **without its own `.git`** (`~/Downloads`, `~/tmp`, ...) also
 >   resolves to the dotfiles repo, so `git add .` there would stage unrelated files.
 >   Nested real repositories are unaffected: git walks up from the cwd and uses whichever
 >   `.git` it hits first.
 > - `status.showUntrackedFiles=no` still applies, so plain `git status` does not flood the
 >   screen with untracked files from the whole home directory.
-> - These three lines **cannot be committed**: git rejects any path named `.git` at the
->   index level, and `core.bare` / `core.worktree` live in `.dotfiles/config`, which `clone`
->   regenerates locally. That is why the shell snippet recreates them on each machine,
->   skipping the work when `~/.git` already exists.
 > - Some tools scan for `$HOME/.git` and treat the entire home directory as a git project
 >   (editors, prompt themes, ...), which may be slow or behave oddly.
-> - In `$HOME`, be careful with `git clean`.
 > - To undo: `rm ~/.git`, then
 >   `git --git-dir="$HOME/.dotfiles" config core.bare true` and
 >   `git --git-dir="$HOME/.dotfiles" config --unset core.worktree`, and remove the `if`
