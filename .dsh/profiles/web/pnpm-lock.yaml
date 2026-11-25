@@ -14,6 +14,9 @@ importers:
       '@gitsang/dsh-daemon':
         specifier: ^0.2.1
         version: 0.2.1
+      '@gitsang/dsh-experimental-auto-review-enhance':
+        specifier: ^0.1.1
+        version: 0.1.1
       '@gitsang/dsh-gateway':
         specifier: ^0.3.0
         version: 0.3.0
@@ -57,6 +60,12 @@ packages:
 
   '@gitsang/dsh-experimental-auto-review-enhance@0.1.0':
     resolution: {integrity: sha512-I8dHGzBruAF0qI+ft/RxFKy8+EDLyUT8g8ktHwkFrmKtPXMaZaz0Zzm6U4LeXQYlJjHf4OVzjv7vZFKXmlOkMw==}
+    peerDependencies:
+      '@deepseek-ai/cordis': ^4.0.4
+      react: ^18.2.0
+
+  '@gitsang/dsh-experimental-auto-review-enhance@0.1.1':
+    resolution: {integrity: sha512-+3+Myn9hZT30G60t3Pbt/6IaEvamlOzhpAAtBNxz1ALT8SJ+0gzYLAyEqsYQyc3AwM8sAiIh+2FMBPgyyD2qNA==}
     peerDependencies:
       '@deepseek-ai/cordis': ^4.0.4
       react: ^18.2.0
@@ -154,6 +163,8 @@ snapshots:
   '@gitsang/dsh-enter-swap@0.1.0': {}
 
   '@gitsang/dsh-experimental-auto-review-enhance@0.1.0': {}
+
+  '@gitsang/dsh-experimental-auto-review-enhance@0.1.1': {}
 
   '@gitsang/dsh-gateway@0.3.0': {}
 
