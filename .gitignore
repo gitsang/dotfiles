@@ -1,16 +1,21 @@
 /*
 !/.gitignore
-
 !/README.md
 
+# shell rc
 !/.shrc
 !/.bashrc
 !/.zshrc
+
+# tmux
 !/.tmux.conf
 
+# agents
 !/.agents/
-
 !/.pi/
 !/.dsh/
 
+# config
+!/.config/
+/.config/*
 !/.config/nvim/

@@ -284,7 +284,3 @@ mk() {
 }
 
 alias grep='grep --color --exclude-dir=node_modules --exclude-dir="\.*"'
-
-dotfiles() {
-  git --git-dir="$HOME/.dotfiles" --work-tree="$HOME" "$@"
-}
