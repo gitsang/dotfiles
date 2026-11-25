@@ -1,0 +1,16 @@
+/*
+!/.gitignore
+
+!/README.md
+
+!/.shrc
+!/.bashrc
+!/.zshrc
+!/.tmux.conf
+
+!/.agents/
+
+!/.pi/
+!/.dsh/
+
+!/.config/nvim/
