@@ -108,6 +108,15 @@ load_fzf() {
 }
 time_it "fzf" load_fzf
 
+load_dotfiles() {
+  if [ -d "$HOME/.dotfiles" ] && [ ! -e "$HOME/.git" ]; then
+    printf 'gitdir: %s/.dotfiles\n' "$HOME" >"$HOME/.git"
+    git --git-dir="$HOME/.dotfiles" config core.bare false
+    git --git-dir="$HOME/.dotfiles" config core.worktree "$HOME"
+  fi
+}
+time_it "dotfiles" load_dotfiles
+
 # =============== Environment Variable =============== #
 
 # locales
