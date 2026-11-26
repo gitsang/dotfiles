@@ -1,9 +1,6 @@
 {
-  "lastChangelogVersion": "1.6.0",
   "theme": "dark",
-  "defaultTools": [
-    "+codemode"
-  ],
+  "defaultTools": ["+codemode"],
   "defaultProvider": "saigw",
   "defaultModel": "auto",
   "defaultThinkingLevel": "high",
@@ -22,11 +19,8 @@
     "maxAgentDelayMs": 60000
   },
   "modelThinkingLevels": {
-    "saigw/deepseek-flash": "high",
-    "saigw/mimo-pro": "high"
-  },
-  "extensionChangelogVersions": {
-    "{\"source\":\"npm:@tintinweb/pi-tasks\",\"scope\":\"user\"}": "0.9.1",
-    "{\"source\":\"npm:@tintinweb/pi-subagents\",\"scope\":\"user\"}": "0.26.3"
+    "saigw/deepseek": "high",
+    "saigw/mimo": "high"
   }
 }
+
