@@ -15,11 +15,11 @@ importers:
         specifier: ^0.2.1
         version: 0.2.1
       '@gitsang/dsh-experimental-auto-review-enhance':
-        specifier: ^0.1.1
-        version: 0.1.1
+        specifier: ^0.1.2
+        version: 0.1.2
       '@gitsang/dsh-gateway':
-        specifier: ^0.3.0
-        version: 0.3.0
+        specifier: ^0.5.0
+        version: 0.5.0
       '@gitsang/dsh-qol':
         specifier: ^0.1.0
         version: 0.1.0
@@ -58,20 +58,20 @@ packages:
       '@deepseek-ai/cordis': ~4.0.4
       react: ^18.2.0
 
-  '@gitsang/dsh-experimental-auto-review-enhance@0.1.0':
-    resolution: {integrity: sha512-I8dHGzBruAF0qI+ft/RxFKy8+EDLyUT8g8ktHwkFrmKtPXMaZaz0Zzm6U4LeXQYlJjHf4OVzjv7vZFKXmlOkMw==}
-    peerDependencies:
-      '@deepseek-ai/cordis': ^4.0.4
-      react: ^18.2.0
-
   '@gitsang/dsh-experimental-auto-review-enhance@0.1.1':
     resolution: {integrity: sha512-+3+Myn9hZT30G60t3Pbt/6IaEvamlOzhpAAtBNxz1ALT8SJ+0gzYLAyEqsYQyc3AwM8sAiIh+2FMBPgyyD2qNA==}
     peerDependencies:
       '@deepseek-ai/cordis': ^4.0.4
       react: ^18.2.0
 
-  '@gitsang/dsh-gateway@0.3.0':
-    resolution: {integrity: sha512-gJ722aW3PTa5Bu3e7hSJK/F+HfyvCmFMRXCAKeymVke2v2s7u0I+SZNhT8m9rqBnZ3OunUDQUCga+pCve/6O7w==}
+  '@gitsang/dsh-experimental-auto-review-enhance@0.1.2':
+    resolution: {integrity: sha512-U/mHz72BY6HkEvjW7uN7crj54/Pkf4iF7n7Ptx0prab+GLOcEVFSKXUkp+zpZfcnXyGIDpZBIvnNcjztVC62Dg==}
+    peerDependencies:
+      '@deepseek-ai/cordis': ^4.0.4
+      react: ^18.2.0
+
+  '@gitsang/dsh-gateway@0.5.0':
+    resolution: {integrity: sha512-GlJ0gSV/Muj8Jn7pSaWsHCQjQ4Hpv3JsCmqQ/wk39BCFns+yi6hoVjOFPiRBwTNvARvB2uEnb7RTaYfKT7CTaA==}
     peerDependencies:
       '@deepseek-ai/cordis': ^4.0.1
       '@deepseek-ai/schemastery': ^3.18.1
@@ -162,18 +162,18 @@ snapshots:
 
   '@gitsang/dsh-enter-swap@0.1.0': {}
 
-  '@gitsang/dsh-experimental-auto-review-enhance@0.1.0': {}
-
   '@gitsang/dsh-experimental-auto-review-enhance@0.1.1': {}
 
-  '@gitsang/dsh-gateway@0.3.0': {}
+  '@gitsang/dsh-experimental-auto-review-enhance@0.1.2': {}
+
+  '@gitsang/dsh-gateway@0.5.0': {}
 
   '@gitsang/dsh-no-preview-notice@0.1.0': {}
 
   '@gitsang/dsh-qol@0.1.0':
     dependencies:
       '@gitsang/dsh-enter-swap': 0.1.0
-      '@gitsang/dsh-experimental-auto-review-enhance': 0.1.0
+      '@gitsang/dsh-experimental-auto-review-enhance': 0.1.1
       '@gitsang/dsh-no-preview-notice': 0.1.0
       '@gitsang/dsh-reset-terminals': 0.1.0
       '@gitsang/dsh-session-tree': 0.1.0

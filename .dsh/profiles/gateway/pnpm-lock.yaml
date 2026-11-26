@@ -9,13 +9,13 @@ importers:
   .:
     dependencies:
       '@gitsang/dsh-gateway':
-        specifier: ^0.3.0
-        version: 0.3.0
+        specifier: ^0.5.0
+        version: 0.5.0
 
 packages:
 
-  '@gitsang/dsh-gateway@0.3.0':
-    resolution: {integrity: sha512-gJ722aW3PTa5Bu3e7hSJK/F+HfyvCmFMRXCAKeymVke2v2s7u0I+SZNhT8m9rqBnZ3OunUDQUCga+pCve/6O7w==}
+  '@gitsang/dsh-gateway@0.5.0':
+    resolution: {integrity: sha512-GlJ0gSV/Muj8Jn7pSaWsHCQjQ4Hpv3JsCmqQ/wk39BCFns+yi6hoVjOFPiRBwTNvARvB2uEnb7RTaYfKT7CTaA==}
     peerDependencies:
       '@deepseek-ai/cordis': ^4.0.1
       '@deepseek-ai/schemastery': ^3.18.1
@@ -23,4 +23,4 @@ packages:
 
 snapshots:
 
-  '@gitsang/dsh-gateway@0.3.0': {}
+  '@gitsang/dsh-gateway@0.5.0': {}

@@ -30,6 +30,8 @@ cache/
 daemon/
 experimental-auto-review-enhance/
 bridge/
+# gateway 凭证（token）；profile 内的 gateway/settings.json 是配置，要追踪
+/gateway/
 
 # ---- workspaces ----
 workspaces/
