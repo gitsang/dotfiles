@@ -23,6 +23,9 @@ importers:
       '@gitsang/dsh-qol':
         specifier: ^0.1.0
         version: 0.1.0
+      dsh-gta6:
+        specifier: ^0.1.2
+        version: 0.1.2
       dsh-video-preview:
         specifier: https://github.com/OrderG-X/dsh-video-preview/releases/latest/download/dsh-video-preview.tgz
         version: https://github.com/OrderG-X/dsh-video-preview/releases/latest/download/dsh-video-preview.tgz
@@ -117,6 +120,10 @@ packages:
     resolution: {integrity: sha512-cgnQ88TRrWcC7pVq46RzJVRMktu3W2RcbnoidnfBsl1bmDCBwJS/udcIZpKoCrbAYYaCqsz1yZCVIgbIaU3ddQ==}
     engines: {node: '>=22.12.0'}
 
+  dsh-gta6@0.1.2:
+    resolution: {integrity: sha512-nBcGC6twDeyF4A8dvV7o97KXkEV6zuebiP+7+1C3EXwmFIE3s4F/ZfJ4DzoH9DRmH6LXNlYgUQ4L+n5KgPO0aA==}
+    engines: {dsh: '>=0.2.0 <0.3.0', node: '>=24.9.0'}
+
   dsh-video-preview@https://github.com/OrderG-X/dsh-video-preview/releases/latest/download/dsh-video-preview.tgz:
     resolution: {integrity: sha512-Oxi094bePbh0Yj/wHo4Hi1qNuEETawE6wtnStfko4MX1MSNkorFtqBTXyCqb/C2w7MAC99sCBZvpgjQVUyL8zQ==, tarball: https://github.com/OrderG-X/dsh-video-preview/releases/latest/download/dsh-video-preview.tgz}
     version: 0.3.0
@@ -192,6 +199,8 @@ snapshots:
   '@gitsang/dsh-statusline@0.2.0': {}
 
   commander@15.1.0: {}
+
+  dsh-gta6@0.1.2: {}
 
   dsh-video-preview@https://github.com/OrderG-X/dsh-video-preview/releases/latest/download/dsh-video-preview.tgz: {}
 

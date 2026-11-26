@@ -15,3 +15,4 @@ minimumReleaseAgeExclude:
   - '@gitsang/dsh-session-tree@0.1.0'
   - '@gitsang/dsh-sidebar-terminal-enhance@0.1.0'
   - '@gitsang/dsh-statusline@0.2.0'
+  - dsh-gta6@0.1.2

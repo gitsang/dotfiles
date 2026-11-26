@@ -201,7 +201,7 @@ dirdiff() {
   DIR2=$(printf '%q' "$1")
   shift
   # shellcheck disable=SC2068
-  nvim -c "packadd nvim.difftool" -c "lua require('difftool').open('$DIR1', '$DIR2', { ignore = {'.git', 'node_modules', '*.log', 'vendor', '.venv', '.omx', '.sisyphus', '.ruff_cache', 'ansible_collections'} })"
+  nvim -c "packadd nvim.difftool" -c "lua require('difftool').open('$DIR1', '$DIR2', { ignore = {'.git', 'node_modules', '*.log', 'vendor', '.venv', '.omx', '.sisyphus', '.ruff_cache', 'ansible_collections', '__pycache__'} })"
 }
 
 # docker
